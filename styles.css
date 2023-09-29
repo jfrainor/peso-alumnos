@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px; /* Margen exterior para separar el contenedor del borde de la ventana */
+}
+
+/* Estilo para el título principal */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo para el formulario */
+form {
+    margin-bottom: 20px;
+}
+
+label, input{
+    margin-top: 20px;
+}
+
+/* Estilo para la etiqueta del input */
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para el botón */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para los resultados */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilo para las estadísticas */
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilo para los porcentajes */
+span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Estilo para la cantidad de alumnos */
+span.cantidad {
+    font-weight: normal;
+    color: #333;
+}
